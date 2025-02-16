@@ -1,6 +1,7 @@
 import { Code2, Files, Search, Settings2 } from "lucide-react";
 
 const Sidebar = () => {
+  console.log("Hii");
   return (
     <div className="w-12 flex-shrink-0 bg-[#111827] flex flex-col items-center py-4 border-r border-[#3b3a3a]">
       <button className="p-2 hover:bg-[#404040] rounded mb-4">
